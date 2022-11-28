@@ -19,3 +19,11 @@ def testMultFail():
 def testDiv():
     output = divide_numbers(10,2)
     assert output == 5
+
+def test1():
+    output = square_numbers(2, 4)
+    assert output == 20
+
+def test2():
+    output = twoab_numbers(2, 4)
+    assert output == 12
