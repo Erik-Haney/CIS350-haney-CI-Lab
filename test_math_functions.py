@@ -13,7 +13,7 @@ def testMult():
     assert output == 8
 
 def testMultFail():
-    output = multiply_numbers(2,4)
+    output = multiply_numbers(4,4)
     assert output == 16
 
 def testDiv():
